@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Het Monpara</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Het Monpara"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Het Monpara">Het Monpara</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="hetamonpara2022@gmail.com" class="contact-link"
+                  >hetmonpara2022@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 9427445563" class="contact-link"
+                  >+91 9427445563</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2004-03-05">March 5, 2004</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bhavnagar , Gujarat , India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/het2518/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/Het2518" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/profile.php?id=100077385596855"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://x.com/MonparaHet" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Computer Engineering student currently in my 4th year at GEC
+              Bhavnagar, specializing in web development and software
+              engineering. I love transforming complex problems into
+              streamlined, user-friendly solutions that are both functional and
+              visually appealing.
+            </p>
+
+            <p>
+              My goal is to develop websites that not only meet the technical
+              requirements but also offer an intuitive and enjoyable user
+              experience. I believe in adding a personal touch to each project,
+              ensuring that it aligns with your brand and captures your message
+              effectively. I've had the pleasure of working on projects like
+              Resume Builder and Movie Mingle, which reflect my dedication to
+              creating impactful digital experiences.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web Dev icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+
+                  <p class="service-item-text">HTML, CSS, JavaScript, React</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-backend.svg"
+                    alt="Backend icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">Node.js, Express.js, MongoDB</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-database.svg"
+                    alt="DBMS icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Database Management Systems
+                  </h4>
+
+                  <p class="service-item-text">MongoDB, SQL</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dsa.svg"
+                    alt="DSA icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Data Structures & Algorithms
+                  </h4>
+
+                  <p class="service-item-text">Efficient problem-solving</p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Om Sonani"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Om Sonani
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Het has been an invaluable mentor in my web development
+                      journey. His patience and ability to explain complex
+                      concepts in simple terms have been instrumental in my
+                      growth as a developer. I highly recommend him for any web
+                      development project.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Arpit Mehta"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Arpit Mehta
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Het's dedication to his craft is inspiring. He
+                      consistently delivers high-quality work and is always
+                      eager to share his knowledge with others. His passion for
+                      web development is contagious and motivates those around
+                      him to strive for excellence.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/het-monpara.jpg"
+                    alt="Het Monpara"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Het Monpara</h4>
+
+                <time datetime="2023-06-14">14 June, 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    Het is an exceptional web developer with a keen eye for
+                    design. His ability to balance functionality and aesthetics
+                    is impressive. He's patient and takes the time to explain
+                    complex concepts clearly, making him an excellent mentor.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <!-- <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section> -->
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Engineering (BE) in Computer Engineering
+                </h4>
+
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  Government Engineering College (GEC), Bhavnagar, India <br />
+                  CGPA: 8.20
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Higher Secondary Education (HSC), PCM
+                </h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Shree Swaminarayan Highschool, Bhavnagar <br />
+                  Percentage: 87.23%
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Professional Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Summer Internship – Web Development
+                </h4>
+
+                <span>06/2024 — 07/2024</span>
+
+                <p class="timeline-text">
+                  Infolabz IT Services Pvt. Ltd., Ahmedabad <br />
+                  Developed API-based React applications, and gained hands-on
+                  experience with web development technologies.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">React Js Internship</h4>
+
+                <span>06/2024 — 07/2024</span>
+
+                <p class="timeline-text">
+                  Sparks To Ideas Technologies Pvt. Ltd., Ahmedabad <br />
+                  Enhanced skills in React.js by developing and optimizing web
+                  applications.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Programming Languages</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <p
+                  class="skill-details"
+                  style="color: #666; text-wrap: pretty; margin-bottom: 4px"
+                >
+                  C, C++, Java, JavaScript, SQL
+                </p>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="85">85%</data>
+                </div>
+
+                <p
+                  class="skill-details"
+                  style="color: #666; text-wrap: pretty; margin-bottom: 4px"
+                >
+                  React.js, Node.js, Express.js, MongoDB, Tailwind CSS
+                </p>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tools</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <p
+                  class="skill-details"
+                  style="color: #666; text-wrap: pretty; margin-bottom: 4px"
+                >
+                  Git, GitHub, VS Code, WebStorm, Postman
+                </p>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Other Skills</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <p
+                  class="skill-details"
+                  style="color: #666; text-wrap: pretty; margin-bottom: 4px"
+                >
+                  Teamwork, Effective Communication, Project Management
+                </p>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box project-style">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Projects</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Movie Mingle (React and Firebase Web App)
+                </h4>
+
+                <span>03/2024 — 05/2024</span>
+
+                <p class="timeline-text">
+                  Built a social platform for movie lovers to discover, review,
+                  and discuss films, enhancing engagement and community
+                  interaction.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Resume Builder (MERN Stack Web App)
+                </h4>
+
+                <span>04/2024</span>
+
+                <p class="timeline-text">
+                  Developed a web app for creating resumes with modern
+                  templates, enhancing user satisfaction by 20%.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Certificates</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  CSS, JavaScript, PHP And Python Programming All in One Course
+                  (UDEMY)
+                </h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  React.JS for Ecommerce: Building a Store with React.JS (UDEMY)
+                </h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Full Stack Web Development Bootcamp (MERN Stack) (UDEMY)
+                </h4>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Building an in-depth full-stack Blog project application using
+                  Nodejs, Express, React, and MongoDB along with ES6+ (UDEMY)
+                </h4>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <!--
+- #PORTFOLIO
+-->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>MERN Stack</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>React</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>MERN Stack</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>React</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a
+                  href="https://github.com/omsonani-8/Resume-Builder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Resume Builder"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Resume Builder</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="react"
+              >
+                <a
+                  href="https://github.com/Het2518/netflix-gpt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="Movie Mingle"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Movie Mingle</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a
+                  href="https://github.com/Het2518/Weather"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="Weather App"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Weather App</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a
+                  href="https://github.com/Het2518/Vaultify"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Vaultify"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Vaultify</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="react"
+              >
+                <a
+                  href="https://github.com/Het2518/password-generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="Password Generator"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Password Generator</h3>
+
+                  <p class="project-category">React</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="mern stack"
+              >
+                <a
+                  href="https://github.com/Het2518/todo-list"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="Todo List"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Todo List</h3>
+
+                  <p class="project-category">MERN Stack</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Web development trends 2023"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Web Development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-01-15">Jan 15, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Web development trends 2023
+                    </h3>
+
+                    <p class="blog-text">
+                      Explore the latest advancements in web technologies and
+                      frameworks that will shape the future of online
+                      experiences.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="React and Firebase integration tutorial"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Tutorials</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-02-22">Feb 22, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      React and Firebase integration tutorial
+                    </h3>
+
+                    <p class="blog-text">
+                      Learn how to connect React.js applications with Firebase
+                      services for efficient backend management and scalable
+                      solutions.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Project management in MERN stack development"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Project Management</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-03-18">Mar 18, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Project management in MERN stack development
+                    </h3>
+
+                    <p class="blog-text">
+                      Discover effective strategies for managing projects built
+                      with MongoDB, Express.js, React.js, and Node.js.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="Web performance optimization techniques"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Performance Optimization</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-04-10">Apr 10, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Web performance optimization techniques
+                    </h3>
+
+                    <p class="blog-text">
+                      Explore advanced methods to improve website load times and
+                      enhance user experience across various devices and
+                      browsers.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="Integrating third-party libraries in web development"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Best Practices</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2023-05-12">May 12, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Integrating third-party libraries in web development
+                    </h3>
+
+                    <p class="blog-text">
+                      Learn how to effectively incorporate external libraries
+                      into your web projects, balancing functionality and
+                      maintainability.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=25,Bhavna%20Society,%20Bhavnagar+(My%20Business%20Name)&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
